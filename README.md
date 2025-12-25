@@ -1,7 +1,4 @@
 Encyclopedia Mettalium Reincarnated
-Video Demo:
-
-<https://youtu.be/ga-Ly6hdKwM>
 
 # Description:
 
@@ -23,4 +20,5 @@ Encyclopedia Mettalium Reincarnated is a modern adaptation of the original Encyc
 This project was developed as part of an educational exercise to improve skills in Python, Flask, API integration, and web development fundamentals. The knowledge gained here can be applied to more complex web applications involving external data sources, user interaction, and real-time updates.
 
 >On a personal note, I chose this project because, as a member of the alternative music scene, I found the original Encyclopedia Mettalium frustrating to use. The lack of a modern adaptation made it difficult to access band information efficiently, and this project was my way of addressing that problem. 
+
 and I wanted to recreate a great idea which was unfortionatly unattended# encyclopedia_mettalium
