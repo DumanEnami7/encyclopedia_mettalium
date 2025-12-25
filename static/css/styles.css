@@ -1,0 +1,243 @@
+* {
+  font-family: merriweather;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: rgb(167, 20, 20);
+  background-color: rgb(18, 18, 18);
+}
+
+nav {
+  background-color: rgb(27, 27, 27);
+  height: 5rem;
+}
+/* custom bootstrap styles */
+.link-secondary {
+  color: rebeccapurple !important;
+}
+.link-secondary:hover {
+  transition: all 0.2s;
+  scale: 1.02;
+
+  text-decoration: underline;
+  color: blueviolet !important;
+}
+.link-secondary:active {
+  color: rgb(75, 38, 112) !important;
+}
+.w-30 {
+  width: 22rem !important;
+}
+
+.btn-outline-secondary {
+  border-color: rgb(89, 43, 134) !important;
+  color: rebeccapurple !important;
+}
+.btn-outline-secondary:hover {
+  background-color: rgb(25, 25, 25) !important;
+  color: darkorchid !important;
+  border-color: rebeccapurple !important;
+}
+.btn-outline-secondary:active {
+  background-color:  purple !important;
+  color: rgb(25, 25, 25) !important;
+  border-color:rgb(102, 22, 160)  !important;
+}
+.header-bg-secondary {
+  background-color: rgb(85, 30, 137) !important;
+}
+.header-text-secondary {
+  color: rgb(96, 34, 154) !important;
+}
+.btn-primary {
+  background-color: rgb(149, 31, 31) !important;
+  color: ghostwhite !important;
+  border: solid 2px brown;
+}
+.btn-primary:hover {
+  background-color: #c40000;
+  border: solid 2.5px rgb(106, 46, 46);
+}
+
+.link-primary {
+  color: brown !important;
+  text-decoration: underline;
+  font-weight: 600;
+}
+.link-primary:hover {
+  color: darkred;
+  scale: 1.01;
+  transition: all 0.2s;
+  text-decoration: underline;
+}
+
+.link-primary:active {
+  background-color: rgba(166, 0, 0, 0.56) !important;
+}
+
+.btn-outline-primary {
+  border-color: rgb(137, 15, 15) !important;
+  color: rgb(181, 23, 23) !important;
+}
+.btn-outline-primary:hover {
+  background-color: rgb(181, 23, 23)!important;
+  border-color: darkred !important;
+  color: rgb(27, 27, 27) !important;
+}
+.btn-outline-primary:active {
+  background-color: rgb(160, 22, 22) !important;
+  color: rgb(25, 25, 25) !important;
+  border-color: rgb(160, 37, 37) !important;
+}
+.btn-outline-primary:focus {
+  box-shadow: 0 0 15px rgba(96, 96, 96, 0.7) !important;
+}
+.bg-dark {
+  background-color: black !important;
+}
+.bg-dark:focus {
+  box-shadow: 0 0 15px rgba(96, 96, 96, 0.7) !important;
+}
+
+/* Accordion styles */
+.accordion-button {
+  background-color: #111;
+  color: #c40000;
+}
+
+.accordion-body a {
+  color: #e6e6e6;
+  text-decoration: none;
+  display: block;
+  padding: 6px 0;
+}
+
+.accordion-body a:hover {
+  color: #c40000;
+}
+
+/* Accordion container visibility */
+#mobileAccordion {
+  display: none;
+}
+
+/* Show accordion only on small screens */
+@media (max-width: 768px) {
+  nav.desktop-nav {
+    display: none !important;
+  }
+  #mobileAccordion {
+    display: block !important;
+  }
+  body{
+  color: rgb(115, 24, 195);}
+  .spotify_album_link{
+    color: brown !important;
+  }
+  .spotify_album_link:hover{
+    color: darkred !important; 
+  scale: 1.01;
+  transition: all 0.2s;
+  text-decoration: underline;
+  }
+  .spotify_album_link:active{
+    background-color: rgb(160, 22, 22) !important;
+  color: rgb(25, 25, 25) !important;
+  border-color: rgb(160, 37, 37) !important;
+  }
+
+}
+
+input {
+  border-radius: 4px;
+}
+
+.album_info_list{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.album {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 200px;
+  max-width: 260px;
+  text-align: center;
+  align-items: center;
+  border: solid 2px ghostwhite;
+  justify-content: center;
+  padding: 0.1rem;
+}
+.album a{
+  margin: 1rem;
+}
+.album_photo{
+  width: 65%;
+  height: 65%;
+  /* object-fit: cover; */
+}
+.html, body {
+  overflow-x: hidden;
+}
+.general_info{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: clamp(1.5rem, 4vw, 4rem);
+  flex-wrap: wrap;
+}
+.album:hover{
+  transition: all 0.2s;
+  background-color: rgb(27, 27, 27);
+  color:ghostwhite;
+  cursor: pointer;
+  border: solid 2px rgb(149, 31, 31);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+}
+.spotify_album_link{text-decoration: underline;}
+.spotify_album_link:hover{
+  color: blueviolet;
+  transition: all 0.2s;
+  scale: 1.04;
+}
+.spotify_album_link:active{
+  color: darkorchid;
+}
+.spotify_album_link{
+  color:slateblue;
+}
+.image_link{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  margin: 1rem;
+}
+img{
+  margin: 1rem;
+  object-fit: cover;
+}
+.general_info{
+  color: rgb(195, 195, 201);
+  font-size: larger;
+  padding: 2rem;
+}
+
+ul{
+  list-style-type: none;
+}
+.search_result{
+  color: #c40000;
+  text-decoration: solid;
+  display: inline;
+  max-width: 100%;
+  overflow-wrap: break-word; /* breaks long words */
+  word-break: break-word;    /* ensures wrapping on all browsers */
+
+}
